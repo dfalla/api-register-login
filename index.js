@@ -9,5 +9,5 @@ app.use(express.json());
 
 
 app.use("/api/v1/auth",userRouter);
-const PORT = 5000;
+const PORT = 3306;
 app.listen(PORT, ()=>console.log(`Servidor en marcha http://localhost:${PORT}`));
